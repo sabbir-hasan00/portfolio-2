@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: ;
+}
+
+/* layout divided for desktop*/
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+/* nav bar styling from here */
+.n_logo img{
+
+    text-align:left;
+}
+.n_headding h1{
+
+    text-align:right ;
+}
+.n_menu {
+    display: flex;
+    justify-content:flex-end;
+    flex-direction:row ;
+    background-color: ;
+  
+}
+.n_menu a {
+    background:transparent;
+    margin:5px 2px;
+    
+}
+/* nav bar ends here */
+
+/* frofile section  styling from here */
+.top_img{
+    position: absolute;
+    top: 70px;
+    left: 90px;
+}
+.p_dec p{
+    width: 100%;
+    color: gray;
+text-align:center;
+font-size: 2rem;
+margin:40px 20px 0px 0px;
+
+
+}
+.bottom_img{
+    position: absolute;
+    bottom:0px;
+    right:150px;
+}
+
+
+/* profile section  styling ends here */ 
+
+/* about section  styling from here */
+
+.a_img img {
+    width: 70%;
+    height: 70%;
+}
+
+/* about section  styling ends here */
+
+/* professonal exprience sction start here */
+#p_exprience .col_wrapper{
+
+    display: flex;
+    justify-content: center;
+    
+ 
+}
+#p_exprience .first_col,.secoend_col,.third_col{
+
+    margin: 10px 20px;
+}
+ 
+
+/* professonal exprience sction ends here */
+
+.m_icon_link button{
+    width: 25%;
+    height: 150px;
+    margin: 50px 10px;
+}
+
+/* more infomation section ends here */

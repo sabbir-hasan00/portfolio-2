@@ -1,0 +1,668 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.dotted_hr{
+    width: 200px;
+     margin: 20px auto;
+    border: 6px dotted white;
+    border-bottom: none;
+
+}
+
+/* body{
+    background: ;
+} */
+
+/* nav bar styling from here */
+
+.n_logo img{
+
+    width: 80px;
+    height: ;
+    border-radius: 100%;
+    border: 3px solid seagreen;
+    text-align:;
+ 
+    box-shadow: 0px 0px 8px 8px red;
+}
+.n_headding h1{
+    
+    font-size: 2.5rem;
+    text-align: center;
+    padding:;
+    color: white;
+    margin:0;
+    text-shadow:2px 5px  8px red;
+}
+.n_menu a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction:column ;
+    padding: 10px;
+    margin: 30px 0px;
+    text-transform: uppercase;
+    background: #053034;
+    border-radius: 10px;
+    text-align: ;
+    align-items: ;
+
+
+}
+.n_menu a:hover{
+    background:silver;
+    
+    box-shadow: 1px 1px 20px 4px red ;
+}
+
+#nav_bar{
+    background-color: #0c6168;
+    padding: 1% 7%;
+    text-align: center;
+    
+    
+}
+#nav_bar::after{
+    content:'';
+    clear:both;
+    display:table;
+
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/* for mobile */
+[class*="col-"]{
+ width: 100%;
+}
+/* nav bar end here */
+
+/* profile section start from here */
+.profile{
+    padding: 130px; ;
+    margin-bottom:30px;
+    text-align: center;
+    position: relative;
+    border: 2px solid red;
+}
+.p_img .top_img,.bottom_img{
+ 
+width: 200px;
+height: 180px;
+border-radius: 50%;
+border: 3px solid seagreen;
+box-shadow: 0px 0px 8px 8px     #053034;
+transition: width 1s,height 1s,transform 1s;
+
+  
+}
+
+ .top_img:hover{
+    transform: rotate(360deg);
+    width: 220px;
+    height: 200px;
+    box-shadow: 0px 0px 28px 8px red;
+    
+}
+.p_dec{
+    padding: 100px 0px;
+}
+
+
+
+.top_img{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.p_dec h3{
+    text-align: center;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+  
+
+   
+}
+.p_dec p{
+    width: 90%;
+    color: gray;
+text-align: center;
+font-size: 1.6rem;
+margin:20px 0px 0px 0px;
+
+
+}
+.bottom_img{
+    position: absolute;
+    bottom:0px;
+    right:50px;
+}
+.bottom_img:hover{
+    transform: rotate(-360deg);
+    width: 220px;
+    height: 200px;
+    box-shadow: 0px 0px 28px 8px red;
+}
+
+.profile::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* profile section ends here */
+
+/* about sction start from here */
+
+#about{
+    background: #053034  ;
+    color: white;
+}
+#about h3{
+    text-align: center;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    padding: 10px 0px;
+  
+
+   
+}
+.a_img{
+    text-align: center;
+}
+.a_img img{
+    width: 300px;
+    height: 280px;
+    border-radius: 100%;
+    border: 3px solid seagreen ;
+    margin: 20px 20px;
+    text-align:;
+    transition:  0.5s;
+}
+.h_img:hover {
+ 
+    width: 320px;
+    height: 300px;
+    box-shadow: 0px 0px 28px 8px red;.
+    
+}
+.a_dec p{
+    font-size: 1.6rem;
+    color:silver; 
+    width: 90%;
+    text-align: justify;
+    margin: 20px auto;
+
+
+}
+.a_dec a{
+    text-decoration: none;
+    color: silver;
+    text-shadow:2px 5px  2px red;
+}
+.a_dec a:hover{
+    font-size: 2rem;
+    text-shadow:5px 5px  8px green; 
+}
+.a_dec a:focus{
+    font-size: 1.4rem;
+    color: gray;
+    text-shadow:none; 
+}
+.hr_style{
+    width: 90%;
+    margin: auto;
+
+}
+.a_dec button{
+  
+    background: #000;
+    color: white;
+    font-size: 1.8rem;
+    padding: 10px;
+    font-style: italic;
+    border-radius:20px;
+    margin: 20px 0px 10px 0px;
+    border: 2px solid ;
+    cursor: pointer;
+   
+}
+.a_dec button:hover{
+    text-shadow:2px 5px  2px red;
+    box-shadow: 0px 0px 18px 8px red; 
+}
+#about::after{
+    content: '';
+    clear: both;
+    display:table;
+}
+/* about sction ends here */
+
+
+/* professonal exprience section start from here */
+#p_exprience{
+    background:gray;
+    color: ;
+   margin: 0;
+   padding: 0;
+   font-size: 0;
+   justify-content: center;
+}
+#p_exprience h3{
+    text-align: center;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    background:  ;
+    color: white;
+    
+ 
+    /* padding: 10px 0px; */
+  
+
+   
+}
+#p_exprience .first_col,.secoend_col,.third_col{
+
+
+    background:  #ca9f9f;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin: 5px 0px;
+    border: 2px solid red;
+    transition: 0.5s;
+  
+ 
+
+
+}
+#p_exprience .first_col:hover{
+   
+    box-shadow:0px 0px 80px 10px whitesmoke;
+}
+#p_exprience .secoend_col:hover{
+   
+    box-shadow:0px 0px 80px 10px whitesmoke;
+}
+#p_exprience .third_col:hover{
+   
+    box-shadow:0px 0px 80px 10px whitesmoke;
+}
+ 
+
+.p_ex_icon{
+    text-align: center;
+}
+.p_ex_icon h3{
+font-size: 1.8rem !important;
+background:  #053034;
+border-radius: 15px;
+color: silver;
+
+}
+ 
+.p_ex_icon i{
+    font-size:80px;
+  
+    border-radius: 100%;
+    border: 3px solid seagreen ;
+    margin: 10px;
+    text-align:center;
+    transition:  0.5s;
+    color:;
+    padding: 30px;
+    background:green;
+}
+
+.p_ex_icon i:hover{
+
+    box-shadow: 0px 0px 18px 8px red;
+}
+#p_exprience .first_col .dec ol{
+    list-style-type:1;
+    color: #000;
+    font-size: 1.3rem;
+    list-style-type: 1;
+    list-style-position: inside;
+    padding: 10px 20px;
+    line-height:1.5rem;
+
+
+}
+#p_exprience .secoend_col .dec ol{
+    list-style-type:1;
+    color: #000;
+    font-size: 1.3rem;
+    list-style-type: 1;
+    list-style-position: inside;
+    padding: 10px 20px;
+    line-height:1.5rem;
+
+}
+#p_exprience .third_col .dec ol{
+    list-style-type:1;
+    color: #000;
+    font-size: 1.3rem;
+    list-style-type: 1;
+    list-style-position: inside;
+    padding: 10px 20px;
+    line-height:1.5rem;
+    
+   
+
+}
+#p_exprience .hr_style{
+    width: 100%;
+    align-items: left;
+    margin: 20px 0px;
+}
+
+
+
+
+
+#p_exprience::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+#p_exprience .third_col .dec ol li{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#p_exprience .third_col .dec ol li::before{
+content: '';
+width:100%;
+height: 20px;
+background: white;
+top:45px;
+z-index: ;
+border-radius:1000px;
+
+left:0px;
+position:absolute;
+ 
+
+
+}
+#p_exprience .third_col .dec ol li span{
+    font-size: 1.2rem;
+    position: absolute;
+font-weight: ;
+font-style: italic;
+color: darkred;
+    right: 0;
+    top:20px;
+    opacity: 0;
+    animation-name: span;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes span{
+    to{
+        opacity: 1;
+        
+       
+    }
+}
+#p_exprience .third_col .dec ol li::after{
+    content: '';
+    width:0;
+    height: 20px;
+    background:white;
+    top:45px;
+    z-index: ;
+    border-radius: 1000px;
+    
+    left:0px;
+    position:absolute;
+}
+#p_exprience .third_col .dec ol li.html::after{
+    animation-name: html;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction:backwards;
+    
+}
+
+
+@keyframes html{
+   to{
+       
+    background: green;
+    width: 95%;
+    box-shadow: 1px 1px 15px 4px #5bf35b;
+   }
+}
+
+#p_exprience .third_col .dec ol li.css::after{
+    animation-name:css;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction:backwards;
+    
+}
+
+
+@keyframes css{
+   to{
+       
+    background: #094709;
+    width: 85%;
+    box-shadow: 1px 1px 15px 4px #5bf35b;
+   }
+}
+#p_exprience .third_col .dec ol li.js::after{
+    animation-name: js;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction:backwards;
+    
+}
+
+
+@keyframes js{
+   to{
+       
+    background: #7b7f06;
+    width: 75%;
+    box-shadow: 1px 1px 15px 4px #5bf35b;
+   }
+}
+#p_exprience .third_col .dec ol li.jq::after{
+    animation-name: jq;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction:backwards;
+    
+}
+
+
+@keyframes jq{
+   to{
+       
+    background: #c1bb17;
+    width: 60%;
+   }
+}
+#p_exprience .third_col .dec ol li.bs::after{
+    animation-name: bs;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction:backwards;
+    
+}
+
+
+@keyframes bs{
+   to{
+       
+    background: #9d7d0c;
+    width: 55%;
+   }
+}
+#p_exprience .third_col .dec ol li.mq::after{
+    animation-name: mq;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction:backwards;
+    
+}
+
+
+@keyframes mq{
+   to{
+       
+    background: red;
+    width: 45%;
+   }
+}
+/* professonal exprience section ends here */
+
+/* more sction start here */
+
+#more::after{
+    content: '';
+    clear: both;
+    display: table;
+
+}
+#more{
+    padding: 30px 10px;
+    background:#053034;
+
+
+}
+    #more h3{
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        font-family:Arial, Helvetica, sans-serif;
+        font-style:italic;
+      width: ;
+    
+       
+    }
+
+    #more h2{
+        width: ;
+        text-align: ;
+        font-size: 1.8rem !important;
+        background:#0c6168;
+        border-radius: 15px;
+        color: silver;
+        text-align: center;
+        padding: 15px 0px;
+        
+        }
+        #more h2:hover{
+            box-shadow: 0px 0px 18px 8px red; 
+        }
+        .m_contacts input{
+
+            display: block;
+            width: 80%;
+            padding: 15px 10px;
+            border: 3px solid seagreen;
+    
+            border-radius: 1000px;
+            margin:15px 0px ;
+            font-size: 1.2rem;
+            font-style: italic;
+            
+            
+        }
+
+        .m_contacts textarea{
+            display: block;
+            resize: none;
+            width: 80%;
+            height: 250px;
+            border: 2px solid seagreen;
+            border-radius: 15px;
+            padding: 50px 15px;
+            font-style: italic;
+            font-size: 1.2rem;
+            text-align: ;
+           
+
+
+
+        }
+        .m_contacts #btn{
+  width: 250px;
+            background: #000;
+            color: white;
+            font-size: 1.8rem;
+            padding: 10px;
+            font-style: italic;
+            border-radius:20px;
+            margin:30px 30px;
+            border: 2px solid ;
+            cursor: pointer;
+            
+           
+        }
+        
+        .m_icon_link {
+          margin-top:30px;
+          text-align: center;
+          
+        
+          
+        }
+        .m_icon_link i{
+border-radius: 100%;
+        }
+
+        .m_icon_link button{
+            width: 100px;
+            height: 100px;
+            font-size: 80px;
+            background:gray;
+            border-radius: 100%;
+            margin: 0px 10px;
+        }
+        .m_icon_link button:hover{
+            text-shadow:2px 5px  2px black;
+            box-shadow: 0px 0px 18px 8px red;
+            
+        
+        }
+        .m_icon_link a{
+            color: saddlebrown;
+            text-decoration: none;
+        }
+/* more sction start here */
+
+/* footer section start frome here */
+footer::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+footer{
+    background: #000;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 2rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    border-radius: 1000px;
+    
+}
+
+/* footer section start frome here */
